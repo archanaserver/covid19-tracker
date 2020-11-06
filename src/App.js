@@ -68,7 +68,6 @@ function App() {
       .then((data) => {
         setCountry(countryCode);
         setCountryInfo(data); //all of the data... from country response
-
         setMapCenter([data.countryInfo.lat, data.countryInfo.long]);
         setMapZoom(4);
       });
@@ -113,7 +112,6 @@ function App() {
           />
           {/* InfoBoxes TITLE=coronavirus recovery*/}
           <InfoBox
-            
             active={casesType === "recovered"}
             onClick={(e) => setCasesType("recovered")}
             title="Recovered"
@@ -144,7 +142,7 @@ function App() {
           <h3>Live Cases by Country</h3>
           <Table countries={tableData} />
           <h3 className="app__graphTitle">Worldwide new {casesType}</h3>
-          <LineGraph className="app__graph" casesType={casesType}/>
+          <LineGraph className="app__graph" casesType={casesType} />
         </CardContent>
       </Card>
     </div>
