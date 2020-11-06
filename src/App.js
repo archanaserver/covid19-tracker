@@ -12,11 +12,10 @@ import InfoBox from './InfoBox';
 import Map from './Map';
 import Table from './Table';
 import LineGraph from './LineGraph';
-import numeral from "numeral";
 import { sortData } from "./util";
+import "leaflet/dist/leaflet.css";
 
 function App() {
-
   const [countries, setCountries] = useState([]);
   const [country, setCountry] = useState('worldwide');
   const [countryInfo, setCountryInfo] = useState({});
