@@ -1,6 +1,6 @@
 ## 📊 COVID19 Tracker (Realtime Application)
 
-This project is fully-featured realtime application build with ReactJS, React libraries, open API, Material-UI & Firebase. 📉
+This project is fully-featured realtime interactive application build with ReactJS, React libraries, open API, Material-UI & Firebase. 📉
 
 ## 📝 What I have done in this project
 
