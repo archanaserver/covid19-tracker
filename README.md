@@ -8,6 +8,7 @@ This project is fully-featured realtime interactive application build with React
 - Build a React Messenger App 💻
 - Make a structure of this Tracker 🗂
 - Create different components for different fuctionality 🚀
+- Used [disease.sh Docs](https://disease.sh/) - An open API for disease-related statistics
 - Used [Material-UI](https://material-ui.com/) for styling 💅🏻
 - Used [React Leaflet Component](https://react-leaflet.js.org/) 🔥
 - Deployed it with [Firebase](https://firebase.google.com/) Hosting 🌐
